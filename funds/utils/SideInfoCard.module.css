@@ -1,0 +1,185 @@
+.heading {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-bottom: 1rem;
+}
+
+.sideInfoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--background);
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    max-width: 32rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3.5rem;
+
+}
+
+.details {
+    max-height: 15rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+}
+
+.contactText {
+    margin-left: 1rem;
+}
+
+.funds {
+    margin-top: 1rem;
+    display: flex;
+    gap: 12rem;
+    white-space: nowrap;
+}
+
+.progress {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.progressBar {
+    width: 100%;
+    height: 1rem;
+    background-color: none;
+    border-radius: 1rem;
+    position: relative;
+    border: 1px solid var(--background);
+}
+
+.progressFill {
+    height: 100%;
+    background-color: var(--tertiary);
+    border-radius: 1rem;
+}
+
+.donateButton {
+    border: 1.5px solid var(--background);
+    background-color: none;
+    color: var(--background);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.donateButton:hover {
+    border: 1.5px solid var(--primary);
+    background-color: var(--background);
+    color: var(--primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.location {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 01rem;
+}
+
+.orglocationText {
+    margin-left: 16px;
+}
+@media screen and (max-width: 1200px) {
+    .content {
+        max-width: 90%;
+    }
+
+    .funds {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    .details {
+        font-size: 1rem;
+    }
+
+    .contactInfo {
+        font-size: 1rem;
+    }
+
+    .location {
+        font-size: 0.9rem;
+    }
+
+    .orglocationText {
+        margin-left: 12px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .content {
+        max-width: 90%;
+    }
+
+    .funds {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    .details {
+        font-size: 1rem;
+    }
+
+    .contactInfo {
+        font-size: 1rem;
+    }
+
+    .location {
+        font-size: 0.9rem;
+    }
+
+    .orglocationText {
+        margin-left: 12px;
+    }
+}
