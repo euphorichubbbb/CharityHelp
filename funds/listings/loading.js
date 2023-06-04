@@ -8,7 +8,7 @@ const Loading = () => {
                 <div className={styles.circle}></div>
                 <div className={styles.circle}></div>
                 <div className={styles.circle}></div>
-                <div className={styles.shadow}></div>
+                <div className={styles.shadow}></divv>
                 <div className={styles.shadow}></div>
                 <div className={styles.shadow}></div>
                 <span>Loading</span>
